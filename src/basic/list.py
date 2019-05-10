@@ -2,22 +2,27 @@
 
 # list
 fruits = ['apple', 'pear', 'peach']
-print fruits
+print(fruits)
 
 # length
-print len(fruits)
+print(len(fruits))
 
 # index
-print 'first item ' + fruits[0]
-print 'second item ' + fruits[1]
-print 'last item ' + fruits[-1]
-print 'last but one item ' + fruits[-2]
+print('index of ' + fruits.index('pear').__str__())
+print('first item ' + fruits[0])
+print('second item ' + fruits[1])
+print('last item ' + fruits[-1])
+print('last but one item ' + fruits[-2])
 try:
-    print fruits[3]
+    print(fruits[3])
 except Exception as e:
-    print 'Error: ' + e.__str__()
+    print('Error: ' + e.__str__())
 
 # manipulation
+# assign value
+fruits[0] = 'APPLE'
+print(fruits)
+
 # append
 fruits.append('strawberry')
 fruits.append('watermelon')
