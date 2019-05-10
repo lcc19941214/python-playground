@@ -28,7 +28,7 @@ print 'abc'.encode('utf-8')  # 'abc
 print 'abc'.decode('utf-8')
 print u'中文'.encode('utf-8')  # '\xe4\xb8\xad\xe6\x96\x87'
 
-# placeholder
+# format with placeholder
 # %s string this will always work
 # %d digit 是否在数字前面padStart：%xnd x代表需要pad的字符，可以省略，默认补充空格；n代表字符总长度
 # %f float 小数点后位数： %.nf n 代表需要显示的长度，默认6个
