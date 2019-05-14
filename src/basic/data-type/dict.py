@@ -47,3 +47,16 @@ try:
     names.pop('Natasha')
 except Exception as error:
     print('error: ' + error.__str__())
+
+# dict
+print('# dict')
+t1 = ('key', 'value')
+t2 = ('hello', 'world')
+t = (t1, t2)
+arr = [t1, t2]
+d1 = dict(t)
+d2 = dict(arr)
+d3 = dict([[1, 1], [2, 2]])
+print(d1)
+print(d2)
+print(d3)

@@ -77,7 +77,7 @@ print(fruits.count(sublist))
 section('# clear')
 while len(fruits):
     fruits.pop()
-print fruits
+print(fruits)
 
 # concat & repeat
 section('# concat & repeat')

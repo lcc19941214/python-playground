@@ -13,5 +13,5 @@ class bcolors:
 
 
 def section(s):
-    print bcolors.OKBLUE + s + bcolors.ENDC
+    print(bcolors.OKBLUE + s + bcolors.ENDC)
     return
