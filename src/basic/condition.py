@@ -17,8 +17,17 @@ elif time > 18:
 else:
     print('good night')
 
-num = raw_input('please enter a number: ')
-if int(num) > 50:
-  print('num is greater than 50')
-else:
-  print('num is less than 50')
+# shorthand
+# 只要x是非零数值、非空字符串、非空list等，就判断为True，否则为False。
+x = 'hello'
+if x:
+    print 'hello'
+x = []
+if not x:
+    print 'world'
+
+# num = raw_input('please enter a number: ')
+# if int(num) > 50:
+#   print('num is greater than 50')
+# else:
+#   print('num is less than 50')
