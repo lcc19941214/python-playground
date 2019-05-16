@@ -1,7 +1,7 @@
 # coding=utf-8
 
 # statement
-print('# statement')
+print('\n# statement')
 a = 1
 b = 2
 c = 3

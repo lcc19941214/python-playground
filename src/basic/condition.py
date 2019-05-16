@@ -21,10 +21,10 @@ else:
 # 只要x是非零数值、非空字符串、非空list等，就判断为True，否则为False。
 x = 'hello'
 if x:
-    print 'hello'
+    print('hello')
 x = []
 if not x:
-    print 'world'
+    print('world')
 
 # num = raw_input('please enter a number: ')
 # if int(num) > 50:

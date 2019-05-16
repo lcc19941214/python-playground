@@ -1,7 +1,7 @@
 # coding=utf-8
 
 # dict
-print('# dict')
+print('\n# dict')
 names = {
     'Hulk': 40,
     'Tony': 35,
@@ -11,7 +11,7 @@ names = {
 print(names)
 
 # key
-print('# key')
+print('\n# key')
 # both string and number can be the key
 d = {}
 d['1'] = 1
@@ -19,28 +19,28 @@ d[1] = 1
 print(d)
 
 # detection
-print('# detection')
+print('\n# detection')
 print(names.has_key('Hulk'))
 print(names.has_key('Natasha'))
 print('Loki' in names)
 print(1 in d)
 
 # manipulation
-print('# manipulation')
+print('\n# manipulation')
 # retrieve value
-print('# retrieve value')
+print('\n# retrieve value')
 print(names['Hulk'])
 print(names.get('Hulk'))
 print(names.get('Loki', 3000))
 
 # assign value
-print('# assign value')
+print('\n# assign value')
 names['Thor'] = 2000
 names['Loki'] = 1500
 print(names)
 
 # remove key
-print('# remove key')
+print('\n# remove key')
 names.pop('Loki')
 print(names)
 try:
@@ -49,7 +49,7 @@ except Exception as error:
     print('error: ' + error.__str__())
 
 # dict
-print('# dict')
+print('\n# dict')
 t1 = ('key', 'value')
 t2 = ('hello', 'world')
 t = (t1, t2)

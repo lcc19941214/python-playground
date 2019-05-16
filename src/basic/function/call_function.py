@@ -1,7 +1,7 @@
 # coding=utf-8
 
 # internal functions
-print('# internal functions')
+print('\n# internal functions')
 rst = abs(-100)
 print(rst)
 
@@ -9,7 +9,7 @@ rst = cmp(100, 20)
 print(rst)
 
 # type convert
-print('# type convert')
+print('\n# type convert')
 print(int('100'))
 print(int(100.5))
 print(float(200))
