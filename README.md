@@ -17,6 +17,12 @@
 - [string.py](./src/basic/data-type/string.py)
 - [tuple.py](./src/basic/data-type/tuple.py)
 
+## fetures
+
+- [iteration.py](./src/fetures/iteration.py)
+- [list-comprehensions.py](./src/fetures/list-comprehensions.py)
+- [slice.py](./src/fetures/slice.py)
+
 ## function
 
 - [call_function.py](./src/function/call_function.py)
