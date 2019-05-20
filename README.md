@@ -17,11 +17,11 @@
 - [string.py](./src/basic/data-type/string.py)
 - [tuple.py](./src/basic/data-type/tuple.py)
 
-### function
+## function
 
-- [call_function.py](./src/basic/function/call_function.py)
-- [define_function.py](./src/basic/function/define_function.py)
-- [parameter.py](./src/basic/function/parameter.py)
+- [call_function.py](./src/function/call_function.py)
+- [define_function.py](./src/function/define_function.py)
+- [parameter.py](./src/function/parameter.py)
 
 ## utils
 
