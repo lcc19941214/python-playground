@@ -19,6 +19,7 @@
 
 ## fetures
 
+- [generator.py](./src/fetures/generator.py)
 - [iteration.py](./src/fetures/iteration.py)
 - [list-comprehensions.py](./src/fetures/list-comprehensions.py)
 - [slice.py](./src/fetures/slice.py)
