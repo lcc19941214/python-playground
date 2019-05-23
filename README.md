@@ -30,6 +30,14 @@
 - [define_function.py](./src/function/define_function.py)
 - [parameter.py](./src/function/parameter.py)
 
+## functional-programming
+
+
+### higher-order-functions
+
+- [filter.py](./src/functional-programming/higher-order-functions/filter.py)
+- [map-&-reduce.py](./src/functional-programming/higher-order-functions/map-&-reduce.py)
+
 ## utils
 
 - [section.py](./src/utils/section.py)
