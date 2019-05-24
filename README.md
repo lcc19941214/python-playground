@@ -37,6 +37,7 @@
 
 - [filter.py](./src/functional-programming/higher-order-functions/filter.py)
 - [map-&-reduce.py](./src/functional-programming/higher-order-functions/map-&-reduce.py)
+- [sorted.py](./src/functional-programming/higher-order-functions/sorted.py)
 
 ## utils
 
