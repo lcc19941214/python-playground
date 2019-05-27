@@ -34,6 +34,7 @@
 
 - [anonymous-functions.py](./src/functional-programming/anonymous-functions.py)
 - [decorator.py](./src/functional-programming/decorator.py)
+- [partial-function.py](./src/functional-programming/partial-function.py)
 - [returns-function.py](./src/functional-programming/returns-function.py)
 
 ### higher-order-functions
