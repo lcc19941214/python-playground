@@ -7,7 +7,6 @@ L = range(1, 11)
 L2 = map(lambda x: x*2, L)
 print(L2)
 
-
-def func(x): return x**2
+func = lambda x: x**2
 print(func)
 print(func(5))
