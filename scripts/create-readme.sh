@@ -17,6 +17,10 @@ function generate() {
       continue
     fi
 
+    if [[ $filename == *'.pyc'* ]]; then
+      continue
+    fi
+
     if [ $filename == 'README.md' ]; then
       echo "- [$filename]($dir)" >>$README
       continue

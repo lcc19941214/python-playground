@@ -43,6 +43,13 @@
 - [map-&-reduce.py](./src/functional-programming/higher-order-functions/map-&-reduce.py)
 - [sorted.py](./src/functional-programming/higher-order-functions/sorted.py)
 
+## modules
+
+- [future.py](./src/modules/future.py)
+- [hello.py](./src/modules/hello.py)
+- [module.py](./src/modules/module.py)
+- [third-part-modules.py](./src/modules/third-part-modules.py)
+
 ## utils
 
 - [section.py](./src/utils/section.py)
