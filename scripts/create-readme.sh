@@ -4,6 +4,24 @@ root=$(pwd)
 README="$root/README.md"
 echo -e '# Python Playground\n' >$README
 
+ignore_names=(
+  'README.md'
+  '__init__.py'
+)
+
+function contains() {
+  local list=$1
+  local filename=$2
+  local in=0
+  for item in ${list[@]}; do
+    if [ $item == $filename ]; then
+      in=1
+      break
+    fi
+  done
+  return $in
+}
+
 function generate() {
   local DIR=$1
   local anchor=$2
@@ -13,16 +31,13 @@ function generate() {
 
   for filename in ${filenames[@]}; do
     local dir="$DIR/$filename"
-    if [ $filename == '__init__.py' ]; then
+    contains "${ignore_names[*]}" $filename
+    local shouldIgnore=$?
+    if [ $shouldIgnore -eq 1 ]; then
       continue
     fi
 
     if [[ $filename == *'.pyc'* ]]; then
-      continue
-    fi
-
-    if [ $filename == 'README.md' ]; then
-      echo "- [$filename]($dir)" >>$README
       continue
     fi
 
@@ -40,7 +55,12 @@ function generate() {
 
   for file in ${dirs[@]}; do
     local dir="$DIR/$file"
-    echo -e "\n$anchor $file\n" >>$README
+    if [ -e "$dir/README.md" ]; then
+      echo -e "\n[$anchor $file]($dir/README.md)\n" >>$README
+    else
+      echo -e "\n$anchor $file\n" >>$README
+    fi
+
     generate "$dir" "$anchor#"
   done
 }
