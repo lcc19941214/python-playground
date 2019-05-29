@@ -53,6 +53,7 @@
 ## object-oriented-programming
 
 - [class-&-instance.py](./src/object-oriented-programming/class-&-instance.py)
+- [private-property.py](./src/object-oriented-programming/private-property.py)
 
 ## utils
 
