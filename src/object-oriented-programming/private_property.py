@@ -20,6 +20,9 @@ class Human(object):
 Conan = Human('Conan', 1990)
 print(Conan.get_age())
 
+print(hasattr(Conan, '__name'))
+print(getattr(Conan, '__name', 404))
+
 try:
     print('print __name: %s' % Conan.__name)
 except Exception as error:

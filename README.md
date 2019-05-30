@@ -52,8 +52,10 @@
 
 ## object-oriented-programming
 
-- [class-&-instance.py](./src/object-oriented-programming/class-&-instance.py)
-- [private-property.py](./src/object-oriented-programming/private-property.py)
+- [class_instance.py](./src/object-oriented-programming/class_instance.py)
+- [inherit_polymorphism.py](./src/object-oriented-programming/inherit_polymorphism.py)
+- [private_property.py](./src/object-oriented-programming/private_property.py)
+- [type_detection.py](./src/object-oriented-programming/type_detection.py)
 
 ## utils
 
