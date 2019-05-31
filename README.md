@@ -57,6 +57,10 @@
 - [private_property.py](./src/object-oriented-programming/private_property.py)
 - [type_detection.py](./src/object-oriented-programming/type_detection.py)
 
+### advanced
+
+- [slots.py](./src/object-oriented-programming/advanced/slots.py)
+
 ## utils
 
 - [section.py](./src/utils/section.py)
