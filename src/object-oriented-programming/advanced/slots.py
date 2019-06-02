@@ -52,6 +52,7 @@ class Boy(Human):
 
 
 bob = Boy('Bob')
+bob.weight = 60
 try:
     bob.height = 178
     print(bob.height)

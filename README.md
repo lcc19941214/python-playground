@@ -60,6 +60,7 @@
 ### advanced
 
 - [slots.py](./src/object-oriented-programming/advanced/slots.py)
+- [use_@property.py](./src/object-oriented-programming/advanced/use_@property.py)
 
 ## utils
 
