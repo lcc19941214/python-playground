@@ -59,6 +59,7 @@
 
 ### advanced
 
+- [customize_class.py](./src/object-oriented-programming/advanced/customize_class.py)
 - [multiple_inherit.py](./src/object-oriented-programming/advanced/multiple_inherit.py)
 - [slots.py](./src/object-oriented-programming/advanced/slots.py)
 - [use_@property.py](./src/object-oriented-programming/advanced/use_@property.py)
