@@ -25,9 +25,11 @@ class Human(object):
         raise StopIteration()
 
     # def __getitem__(self):
+        # 适用于 object[key] 以及 切片 调用的场景
         # pass
 
     def __getattr__(self, attr):
+        # 有点类似 es6 中的 proxy 的 get
         return attr
 
     def __call__(self):
