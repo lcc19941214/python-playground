@@ -17,12 +17,15 @@
 - [string.py](./src/basic/data-type/string.py)
 - [tuple.py](./src/basic/data-type/tuple.py)
 
-## fetures
+## debug
 
-- [generator.py](./src/fetures/generator.py)
-- [iteration.py](./src/fetures/iteration.py)
-- [list-comprehensions.py](./src/fetures/list-comprehensions.py)
-- [slice.py](./src/fetures/slice.py)
+
+## features
+
+- [generator.py](./src/features/generator.py)
+- [iteration.py](./src/features/iteration.py)
+- [list-comprehensions.py](./src/features/list-comprehensions.py)
+- [slice.py](./src/features/slice.py)
 
 ## function
 
