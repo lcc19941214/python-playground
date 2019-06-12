@@ -61,6 +61,7 @@
 
 - [customize_class.py](./src/object-oriented-programming/advanced/customize_class.py)
 - [enumeration.py](./src/object-oriented-programming/advanced/enumeration.py)
+- [metaclass.py](./src/object-oriented-programming/advanced/metaclass.py)
 - [multiple_inherit.py](./src/object-oriented-programming/advanced/multiple_inherit.py)
 - [slots.py](./src/object-oriented-programming/advanced/slots.py)
 - [use_@property.py](./src/object-oriented-programming/advanced/use_@property.py)
