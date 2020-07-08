@@ -28,6 +28,10 @@ print(L_copy == L)
 about == and is
 @see https://juejin.im/entry/5a3b62446fb9a0451f311b5c
 
-is比较的是两个对象的id值是否相等，也就是比较两个对象是否为同一个实例对象，是否指向同一个内存地址。
-==比较的是两个对象的内容是否相等，默认会调用对象的__eq__()方法
+is 比较的是两个对象的id值是否相等，也就是比较两个对象是否为同一个实例对象，是否指向同一个内存地址。
+== 比较的是两个对象的内容是否相等，默认会调用对象的__eq__()方法
 '''
+
+# reverse
+S = 'hello world'
+print('reverse string "hello world" to "%s"' % S[::-1])
